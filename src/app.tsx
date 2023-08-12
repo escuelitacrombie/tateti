@@ -40,7 +40,6 @@ export function App() {
       const lineX = [];
       const lineO = [];
       for (let j = 0; j < tableBoard[i].length; j++) {
-        console.log(`${j} ${i}`);
         if (tableBoard[j][i] === "X") {
           lineX.push(true);
         } else if (tableBoard[j][i] === "O") {
